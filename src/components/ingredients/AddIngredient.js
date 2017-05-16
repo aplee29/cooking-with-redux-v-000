@@ -4,9 +4,9 @@ import { bindActionCreators } from 'redux';
 import { recipeFormAddIngredient } from '../../actions/ingredients';
 
 export class AddIngredient extends Component {
-  constructor(props) {
-    super(props);
-  }
+  // constructor(props) {
+  //   super(props);
+  // }
 
   handleOnClick(event) {
     this.props.recipeFormAddIngredient(this.props.id);

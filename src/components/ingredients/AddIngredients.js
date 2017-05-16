@@ -4,9 +4,9 @@ import { ConnectedAddIngredient } from './AddIngredient';
 import { unselectedIngredients, findIngredientById } from '../../reducers/ingredients';
 
 export class AddIngredients extends Component {
-  constructor(props) {
-    super(props);
-  }
+  // constructor(props) {
+  //   super(props);
+  // }
 
   handleOnSubmit(event) {
     event.preventDefault();
